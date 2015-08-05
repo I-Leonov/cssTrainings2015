@@ -1,0 +1,20 @@
+
+.navigation-panel {
+    font-family: 'Source Sans Pro';
+}
+
+.navigation-panel .navigation-panel__element {
+    font-weight: bold;
+    width: 16%;
+    float: left;
+    font-size: 16pt;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    color: #637f83;
+    margin-top: 40px;
+
+}
+
+.navigation-panel .navigation-panel__element:active {
+    color: #e4551d;
+}

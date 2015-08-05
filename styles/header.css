@@ -1,0 +1,14 @@
+.header {
+    height: 90px;
+}
+
+.header .header__half {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.header .header__half__left {
+    padding-left: 115px;
+    padding-top: 35px;
+}
