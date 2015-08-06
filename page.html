@@ -14,6 +14,7 @@
     <link href="styles/featured-content.css" type="text/css" rel="stylesheet">
     <link href="styles/portfolio.css" type="text/css" rel="stylesheet">
     <link href="styles/slider.css" type="text/css" rel="stylesheet">
+    <link href="styles/button.css" type="text/css" rel="stylesheet">
 
 </head>
 <body>
@@ -35,7 +36,7 @@
         </ul>
     </div>
 </div>
-<div class="main-container">
+<div class="main-container grid">
     <div class="banner">
         <img class="banner__image" src="images/banner.png">
 
@@ -63,7 +64,7 @@
                 augue, eu vulputate magn</h2>
 
             <div class="featured-content__button-container">
-                <a class="featured-content__button">More</a>
+                <a class="simple-button">More</a>
             </div>
         </div>
         <div class="col-2-12 featured-content__item">
@@ -77,7 +78,7 @@
                 quam, gravida info</h2>
 
             <div class="featured-content__button-container">
-                <a class="featured-content__button">More</a>
+                <a class="simple-button">More</a>
             </div>
         </div>
         <div class="col-2-12 featured-content__item">
@@ -91,7 +92,7 @@
                 velit. Pellentesque egestas sem.</h2>
 
             <div class="featured-content__button-container">
-                <a class="featured-content__button">More</a>
+                <a class="simple-button">More</a>
             </div>
         </div>
         <div class="col-2-12 featured-content__item">
@@ -105,28 +106,36 @@
                 Pellentesque egestas sem.</h2>
 
             <div class="featured-content__button-container">
-                <a class="featured-content__button">More</a>
+                <a class="simple-button">More</a>
             </div>
         </div>
 
     </div>
-    <div class="portfolio  grid">
+    <div class="portfolio col-8-12 ">
         <div class="main-title">
             <h2 class="main-title__header">Cras ornare tristique elit</h2>
 
             <h2 class="main-title__text">Donec odio uisque volutpat mattis eros ullam malesuada erat ut turpis. </h2>
         </div>
-        <div class="slider  col-8-12">
-            <div class="slider__navigation">
-                <span class="slider__navigation__btn-container" >
+
+        <div class="slider_container">
+
+            <div class=" slider__navigation-container">
+                <div class="slider__navigation">
+                <span class="slider__navigation__btn-container">
                     <span class="slider__navigation__btn slider__navigation__btn-left"></span>
 
                     <span class="slider__navigation__btn slider__navigation__btn-right"></span>
                 </span>
+                </div>
             </div>
+            <div class="slider ">
+                <img class="slider__image" src="images/slider.png"/>
+            </div><br/>
+            <a class="simple-button simple-button--orange">View Portfolio</a>
         </div>
+
     </div>
-    <div class="portfolio-container"></div>
     <div class="review-container"></div>
 
 </div>

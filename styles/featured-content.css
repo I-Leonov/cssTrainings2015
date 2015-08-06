@@ -47,16 +47,6 @@
     padding-right: 50px;
     padding-left: 50px;
 }
-.featured-content__item .featured-content__button {
-    border-radius: 7px;
-    font-family: "Source Sans Pro", sans-serif;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 800;
-    background: #637f83;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-}
 .featured-content__item .featured-content__button-container {
-    margin-top:50px
+    margin-top:30px
 }

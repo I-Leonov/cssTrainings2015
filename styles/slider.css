@@ -3,27 +3,23 @@
     src: url('../fonts/fontawesome-webfont.woff2') format('woff2'),
     url('../fonts/fontawesome-webfont.woff') format('woff');
 }
-.slider {
-    display: inline-block;
-    float: none;
-}
-.slider .slider__navigation {
+.slider__navigation-container .slider__navigation {
     width: 100%;
     text-align: center;
     position: relative;
     z-index: 1;
 }
 
-.slider .slider__navigation::before {
+.slider__navigation-container .slider__navigation::before {
+    overflow: hidden;
     border-top: 2px solid #dfdfdf;
     content: "";
-    margin: 0 auto; /* this centers the line to the full width specified */
+    margin: auto; /* this centers the line to the full width specified */
     position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
     top: 50%;
     left: 0;
     right: 0;
     bottom: 0;
-    width: 95%;
     z-index: -1;
 }
 
@@ -33,7 +29,7 @@
     padding-right: 15px
 }
 
-.slider .slider__navigation .slider__navigation__btn {
+.slider__navigation-container .slider__navigation .slider__navigation__btn {
     font-family: awesome;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
@@ -53,10 +49,25 @@
 
 }
 
-.slider .slider__navigation .slider__navigation__btn-left::after {
+.slider__navigation-container .slider__navigation .slider__navigation__btn-left::after {
     content: "\f0a8";
 }
 
-.slider .slider__navigation .slider__navigation__btn-right::after {
+.slider__navigation-container .slider__navigation .slider__navigation__btn-right::after {
     content: "\f0a9";
+}
+.slider {
+    display: inline-block;
+    float: none;
+    position:relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.slider__image {
+    width: 100%;
+}
+
+.slider_container {
+    padding-bottom: 50px;
 }
