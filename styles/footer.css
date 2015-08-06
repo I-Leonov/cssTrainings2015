@@ -1,0 +1,20 @@
+.footer {
+    background-color: #637f83;
+    margin-top: 10px;
+    padding-top: 1px;
+    text-align: center;
+}
+
+.footer-title {
+    display: inline-block;
+    float: none;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #597275;
+
+}
+
+.feedback_container {
+    display: inline-block;
+    float: none;
+    margin-bottom: 30px;
+}

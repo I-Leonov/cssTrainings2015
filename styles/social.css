@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+.social {
+    background-color: white;
+    padding-top: 30px;
+}
+.social-item {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+.social-item .social__item-description__header {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #637f83;
+}
+
+.social-item .social__item-description__text{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    color: #637f83;
+}
+
+.social .social__item-image {
+    float: left;
+}
