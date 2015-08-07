@@ -1,4 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+/*@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);*/
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-Bold.otf') format('opentype');
+    font-weight: bold;
+}
 
 .navigation-panel {
     font-family: "Source Sans Pro", sans-serif;
@@ -12,8 +18,8 @@
     font-variant: small-caps;
     text-transform: lowercase;
     color: #637f83;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 25px;
 }
 
 .navigation-panel .navigation-panel__element--active {
