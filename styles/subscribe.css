@@ -1,0 +1,64 @@
+.subscribe {
+    text-align: left;
+}
+
+.subscribe .subscribe__email {
+    float: left;
+    text-align: left;
+    font-family: awesome;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    color: white;
+    display: inline-block;
+    font-size: 28px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 20px;
+    text-rendering: auto;
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    width: 24px;
+}
+
+.subscribe .subscribe__email:before {
+    content: "\f0e0";
+}
+
+.subscribe .subscribe__title-header {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.subscribe .subscribe__title-text {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    color: white;
+
+}
+
+.subscribe .subscribe__form_container {
+    display: table;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.subscribe .subscribe__input-container {
+    display: table-cell;
+}
+
+.subscribe__input-container .subscribe__input {
+    width: 100%;
+    height: 100%;
+    background-color: #597275;
+    border: none;
+}
+
+.subscribe .subscribe__button-container {
+    display: table-cell;
+    padding-left: 15px;
+}
