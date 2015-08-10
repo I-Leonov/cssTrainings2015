@@ -1,0 +1,27 @@
+
+.main-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #637f83;
+
+}
+
+.main-title__header {
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.main-title__text {
+
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.main-title--white {
+    color: white;
+}

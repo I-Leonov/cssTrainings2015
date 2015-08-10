@@ -1,0 +1,7 @@
+.portfolio {
+   display: inline-block;
+    float: none;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #dfdfdf;
+    padding-right: 0;
+}

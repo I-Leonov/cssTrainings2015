@@ -1,0 +1,37 @@
+.review {
+    padding-right: 0;
+    display: inline-block;
+    float: none;
+    text-align: left;
+    /*margin-bottom: 40px;*/
+}
+
+.review .review-item {
+    margin-bottom: 30px;
+
+}
+.review .review-item__image-container {
+    float: left;
+    margin-right: 20px;
+}
+
+.review .review-item__image {
+    border-radius: 10px;
+}
+
+.review .review-item__title {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #637f83;
+}
+
+.review .review-item__text {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    color: #637f83;
+}
+
+.review .review__read-more {
+    color: #e4551d;
+}
