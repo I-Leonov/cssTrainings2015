@@ -45,6 +45,7 @@
     margin-right: 2px;
     text-rendering: auto;
     text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+    text-decoration: none;
     width: 24px;
 
 }
