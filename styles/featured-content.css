@@ -1,13 +1,16 @@
-
-.featured-content {
+.featured-content-container {
     background-color: #f6f6f6;
+}
+.featured-content {
+    max-width: 66%;
     text-align: center;
+    display: inline-block;
 }
 
 .featured-content__item {
     text-align: center;
     padding-right: 0;
-    display: inline-block;
+    display: table-cell;
     float: none;
     padding-top: 60px;
     padding-bottom: 60px;
