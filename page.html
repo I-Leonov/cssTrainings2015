@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>My Site name - home</title>
     <link href="styles/reset.css" type="text/css" rel="stylesheet">
     <link href="styles/simplegrid/simplegrid.css" type="text/css" rel="stylesheet">
     <link href="styles/theme.css" type="text/css" rel="stylesheet">
@@ -34,11 +34,11 @@
     <div class="header__half">
         <ul class="navigation-panel">
             <li class="navigation-panel__element navigation-panel__element--active">HOME</li>
-            <li class="navigation-panel__element">ABOUT</li>
-            <li class="navigation-panel__element">SERVICES</li>
-            <li class="navigation-panel__element">PROJECT</li>
-            <li class="navigation-panel__element">BLOG</li>
-            <li class="navigation-panel__element">CONTACT</li>
+            <li class="navigation-panel__element"><a href="#">about</a> </li>
+            <li class="navigation-panel__element"><a href="#">services</a> </li>
+            <li class="navigation-panel__element"><a href="#">project</a> </li>
+            <li class="navigation-panel__element"><a href="#">blog</a> </li>
+            <li class="navigation-panel__element"><a href="#">contact</a> </li>
         </ul>
     </div>
 </div>
@@ -46,11 +46,19 @@
     <div class="banner">
         <img class="banner__image" src="images/banner.png">
 
-        <div class="banner_text_container">
-            <h2 class="banner__title">Lorem ipsum laro<br/>dolore sit amet vivamus</h2>
+        <div class="banner_text-container">
+            <div class="banner_text-container__inner">
+            <a href="#" class="banner__title">Lorem ipsum laro dolore sit amet vivamus</a>
+            </div>
+            <div class="banner_text-container__inner">
+            <a href="#" class="banner__text">Lorem ipsum laro sit amet dolore sit ame</a>
+                </div>
+            <div class="banner__go-bottom-image-container">
+                <a href="#">
+                <img alt="orange circle with arrow" src="images/orange_circle.png">
+                </a>
+            </div>
 
-            <h3 class="banner__text">Lorem ipsum laro sit amet<br/>dolore sit ame</h3>
-            <img class="banner__go-bottom-image" src="images/orange_circle.png">
         </div>
     </div>
     <div class="main-title">

@@ -14,12 +14,16 @@
     font-weight: bold;
     width: 16%;
     float: left;
-    font-size: 16px;
-    font-variant: small-caps;
-    text-transform: lowercase;
-    color: #637f83;
     padding-top: 20px;
     padding-bottom: 25px;
+
+}
+.navigation-panel .navigation-panel__element a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #637f83;
+    text-decoration: none;
+
 }
 
 .navigation-panel .navigation-panel__element--active {

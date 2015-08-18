@@ -6,16 +6,21 @@
 }
 
 .banner .banner__image {
-    width: 100%;
+    max-width: 100%;
     min-width: 1100px;
 }
 
-.banner .banner_text_container {
+.banner .banner_text-container {
     position: absolute;
     top: 10%;
     width: 100%;
     text-align: center;
 }
+.banner .banner_text-container__inner {
+    width: 100%;
+}
+
+
 
 .banner .banner__title {
     font-family: "PT Sans", sans-serif;
@@ -24,7 +29,8 @@
     text-align: center;
     text-decoration: underline;
     color: white;
-
+    width: 420px;
+    display: inline-block;
 }
 
 .banner .banner__text {
@@ -36,10 +42,14 @@
 
     color: white;
 
-    margin-top: 30px
+    margin-top: 30px;
+    width: 270px;
+    display: inline-block;
 
 }
 
-.banner .banner__go-bottom-image {
-    margin-top: 40px;
+.banner .banner__go-bottom-image-container {
+    padding-top: 40px;
+    display: inline-block;
+    width: 100%;
 }
